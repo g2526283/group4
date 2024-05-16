@@ -16,28 +16,28 @@ export default {
 
 <template>
     <div class="fire">
-        <a href="">
+        <RouterLink class="routerItem" to="/fire">
             <i class="fa-solid fa-fire"></i>
             <div class="fire mark">火力發電</div>
-        </a>
+        </RouterLink>
     </div>
     <div class="regeneration">
-        <a href="">
+        <RouterLink class="routerItem" to="/RenewableEnergySource">
             <i class="fa-solid fa-recycle"></i>
             <div class="regeneration mark">再生能源</div>
-        </a>
+        </RouterLink>
     </div>
     <div class="nuclearenergy">
-        <a href="">
+        <RouterLink class="routerItem" to="/HomeView">
             <i class="fa-solid fa-circle-radiation"></i>
             <div class="nuclearenergy mark">核能發電</div>
-        </a>
+        </RouterLink>
     </div>
     <div class="electricity">
-        <a href="">
+        <RouterLink class="routerItem" to="/circle">
             <i class="fa-solid fa-bolt-lightning"></i>
             <div class="electricitymark mark">電力預測</div>
-        </a>
+        </RouterLink>
     </div>
 </template>
 
