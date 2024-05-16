@@ -4,7 +4,7 @@
 </script>
 
 <template>
-
+<h1>NEWS</h1>
   <div class="newss">
 
 
@@ -29,13 +29,14 @@
 </template>
 
 <style scoped lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
 .newss {
   width: 100vw;
   
   display: flex;
   justify-content: space-around;
 
-  margin-top: 10%;
+  
 
   .news {
     width: 40vw;
@@ -46,5 +47,12 @@
     overflow: auto;
     opacity: 0.9;
   }
+}
+h1{
+  font-family: "Cabin Sketch", sans-serif;
+  text-align: center;
+  margin-top: 10%;
+  color: #E1332D;
+  font-size: 90px;
 }
 </style>

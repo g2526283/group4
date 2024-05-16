@@ -268,6 +268,7 @@ onMounted(() => {
 
 
 <template>
+<div class="all">
 
 <div class="firstArea">
         <hamburger/>
@@ -445,13 +446,13 @@ onMounted(() => {
   <div class="GotopArea">
      <Gotop/>
   </div>
-  
+</div>
 </template>
 
 
 
 <style scoped lang="scss">
-* {
+.all{
   background-image: url(/慧，宇/bg.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
