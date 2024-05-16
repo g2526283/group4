@@ -26,6 +26,11 @@ const router = createRouter({
       path:'/fire',
       name:'fire',
       component:()=>import('../views/深海大鳳梨/fire.vue')
+    },
+    {
+      path:'/HomeView',
+      name:'HomeView',
+      component:()=>import('../views/鳴 儒/HomeView.vue')
 
     }
     
