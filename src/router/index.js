@@ -17,21 +17,6 @@ const router = createRouter({
       component:() => import("../views/宇/fast.vue")
     },
     {
-      path:'/test',
-      name:'test',
-      component:() => import("../views/宇/test.vue")
-    },
-    {
-      path:'/fasTest',
-      name:'fasTest',
-      component:() => import("../views/宇/testFas.vue")
-    },
-    {
-      path:'/Runnumber',
-      name:'Runnumber',
-      component:() => import("../views/宇/Runnumber.vue")
-    },
-    {
       path:'/RenewableEnergySource',
       name:'RenewableEnergySource',
       component:() => import("@/views/義/RenewableEnergySource.vue")
