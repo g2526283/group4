@@ -1,0 +1,44 @@
+import { createRouter, createWebHistory } from 'vue-router'
+// import HomeView from '../views/HomeView.vue'
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    // 每個新增的分頁都要在下方設定
+    // {
+    //   path: '/', //導航地址
+    //   name: 'home', //導航名稱
+    //   component: HomeView //目的地
+    // },
+    
+    
+    {
+      path:'/',
+      name:'Fast',
+      component:() => import("../views/宇/fast.vue")
+    },
+    {
+      path:'/test',
+      name:'test',
+      component:() => import("../views/宇/test.vue")
+    },
+    {
+      path:'/fasTest',
+      name:'fasTest',
+      component:() => import("../views/宇/testFas.vue")
+    },
+    {
+      path:'/Runnumber',
+      name:'Runnumber',
+      component:() => import("../views/宇/Runnumber.vue")
+    },
+    {
+      path:'/RenewableEnergySource',
+      name:'RenewableEnergySource',
+      component:() => import("@/views/義/RenewableEnergySource.vue")
+    },
+   
+    
+  ]
+})
+
+export default router
