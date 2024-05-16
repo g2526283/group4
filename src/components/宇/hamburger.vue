@@ -9,7 +9,15 @@
     <nav class="nav" id="nav" :class="{'change': this.isOpen}">
         <ul >
             <li id="liFirst":class="{'textchange': this.isOpen}">
-                <RouterLink class="routerItem" to="/RenewableEnergySource">
+                <RouterLink class="routerItem" to="/">
+                    <div class="position">
+                        <i class="fa-solid fa-sun"></i>
+                        <h1>回到首頁</h1>
+                    </div>
+                </RouterLink>
+            </li>
+            <li id="liFirst":class="{'textchange': this.isOpen}">
+                <RouterLink class="routerItem" to="/fire">
                     <div class="position">
                         <i class="fa-solid fa-fire"></i>
                         <h1>火力發電</h1>
@@ -101,9 +109,9 @@
         transition: 0.7s ease;
         display: none;
         ul{
-            padding-top:20px;
+            padding-top:0px;
             li{
-                margin: 60px 60px 60px 20px;
+                margin: 40px 60px 60px 20px;
                 list-style: none;
                 a {
                     font-size: 60px;

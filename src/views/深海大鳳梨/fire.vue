@@ -3,6 +3,9 @@ import { ref, onMounted } from 'vue';
 import count from './count.vue';
 import news from './news.vue';
 import typeArea from './type.vue';
+import  hamburger from "@/components/宇/hamburger.vue";
+import  Footer from "@/components/宇/Footer.vue";
+import  Gotop from "@/components/宇/Gotop.vue";
 
 const path = ref('');
 
@@ -172,7 +175,9 @@ const cardText = ref('Some quick example text to build on the card title and mak
 
 
   <div class="body">
-
+    <div class="hamburgerArea">
+      <hamburger/>
+    </div>
 
     <div class="headArea">
 
@@ -219,6 +224,12 @@ const cardText = ref('Some quick example text to build on the card title and mak
     <!-- 新聞區 -->
     <news />
 
+    <div class="FooterArea">
+      <Footer />
+    </div>
+    <div class="GotopArea">
+      <Gotop />
+    </div>
   </div>
 
 </template>
@@ -294,5 +305,12 @@ const cardText = ref('Some quick example text to build on the card title and mak
     width: 500px;
     height: 600px;
   }
+}
+
+.FooterArea{
+  width: 100%;
+  height: 30dvh;
+  background-color: #3E3E3E;
+  padding-top: 72px;
 }
 </style>
