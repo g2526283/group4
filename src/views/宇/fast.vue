@@ -4,13 +4,13 @@ import News from "@/components/宇/News.vue";
 // const News = () => import('../components/宇/News.vue');
 import Barchart from "@/components/宇/Barchart.vue";
 import Piechart from "@/components/宇/Piechart.vue";
-import Footer from "@/components/宇/Footer.vue";
+
 import header3d from "@/components/宇/header3d.vue";
 import Pagingswitch from "@/components/宇/Pagingswitch.vue";
 import Loadingitem from "@/components/宇/Loadingitem.vue";
 import hamburger from "@/components/宇/hamburger.vue";
-
-
+import Footer from "@/components/宇/Footer.vue";
+import Gotop from "@/components/宇/Gotop.vue"
 
 export default {
   data() {
