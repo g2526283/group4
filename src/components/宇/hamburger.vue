@@ -80,7 +80,7 @@
 <style scoped lang="scss">
     // 點擊之前
     #menu {
-        z-index: 2;
+        z-index: 10;
     }
     #menu-bar {
         width: 45px;
@@ -141,7 +141,7 @@
         top: -50px;
         left: -50px;
         position: fixed;
-        z-index: 1;
+        z-index: 8;
         width: 0;
         height: 0;
         margin: 30px 0 20px 20px;

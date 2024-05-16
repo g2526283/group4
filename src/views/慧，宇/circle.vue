@@ -897,7 +897,7 @@ a.modal-open {
     background-color: #3E3E3E;
     padding-top: 72px;
     position: absolute;
-    z-index: 10;
+    z-index: 7;
     background-image: none;
 
     *{
