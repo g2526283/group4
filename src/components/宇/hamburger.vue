@@ -33,7 +33,7 @@
                 </RouterLink>
             </li>
             <li id="liThirth" :class="{'textchange': this.isOpen}">
-                <RouterLink class="routerItem" to="/RenewableEnergySource">
+                <RouterLink class="routerItem" to="/HomeView">
                     <div class="position">
                         <i class="fa-solid fa-circle-radiation"></i>
                         <h1>核能發電</h1>

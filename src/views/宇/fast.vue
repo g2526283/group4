@@ -1,6 +1,6 @@
 <script >
 // import Spline from "spline-vue/v3";
-import News from "D:/前端/前端第二次發表/src/components/宇/News.vue";
+import News from "@/components/宇/News.vue";
 // const News = () => import('../components/宇/News.vue');
 import Barchart from "@/components/宇/Barchart.vue";
 import Piechart from "@/components/宇/Piechart.vue";
