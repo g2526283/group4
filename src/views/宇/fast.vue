@@ -115,16 +115,12 @@ export default {
 <template>
   <!-- 這是 Vue Router 中的一個組件，用於根據路由顯示不同的頁面內容。 -->
   
-  <RouterView />
-  <!-- 懸浮菜單欄先隱藏 -->
-  <!-- <div class="header">
-    <Header/>
-  </div> -->
   <Loadingitem/>
   <hamburger/>
   <div class="area1">
     <!-- 放入heard3d元件 -->
     <header3d/>
+    <div class="trigger"><p>電 力 消 耗 中....</p></div>
   </div>
 
   <div class="area2">
@@ -188,6 +184,28 @@ export default {
 .area1 {
   width: 100%;
   height: 100dvh;
+  .trigger{
+    position: fixed;
+    width: 63dvw;
+    height: 31dvh;
+    top: 40dvh;
+    left: 17dvw;
+    // border: 2px solid white;
+    p{
+      font-family: "Dosis", sans-serif;
+      position: fixed;
+      font-size: 22px;
+      top: 85dvh;
+      left: 45dvw;
+      opacity: 0.0;
+    }
+  }
+  .trigger:hover{
+    p{
+      opacity: 0.8;
+      transition: 0.5s;
+    }
+  }
 }
 
 .area2 {
