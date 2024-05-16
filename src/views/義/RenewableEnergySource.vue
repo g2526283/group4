@@ -26,8 +26,9 @@ import buttonCreat from "@/components/義/buttonCreat.vue"
 import taiwan from "@/components/義/taiwan.vue"
 import equipment from "@/components/義/equipment.vue"
 import principle from "@/components/義/principle.vue"
-import hamburger from "@/components/義/hamburger.vue"
-import Footer from "@/components/義/Footer.vue"
+import hamburger from "@/components/宇/hamburger.vue"
+import Footer from "@/components/宇/Footer.vue"
+import Gotop from "@/components/宇/Gotop.vue"
 
 export default{
     data(){
@@ -81,6 +82,7 @@ export default{
         hamburger,
         Footer,
         Spline,
+        Gotop
     },
 
 }
@@ -146,6 +148,9 @@ export default{
     </div>
     <div class="eightArea">
         <Footer/>
+    </div>
+    <div class="ten">
+        <Gotop/>
     </div>
 </template>
 
