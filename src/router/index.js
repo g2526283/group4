@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import fire from '../views/深海大鳳梨/fire.vue'
 // import HomeView from '../views/HomeView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,7 +22,12 @@ const router = createRouter({
       name:'RenewableEnergySource',
       component:() => import("@/views/義/RenewableEnergySource.vue")
     },
-   
+    {
+      path:'/fire',
+      name:'fire',
+      component:()=>import('../views/深海大鳳梨/fire.vue')
+
+    }
     
   ]
 })
