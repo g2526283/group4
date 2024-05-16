@@ -18,7 +18,7 @@ export default {
     <div class="fire">
         <a href="">
             <i class="fa-solid fa-fire"></i>
-            <div class="fire mark">火力</div>
+            <div class="fire mark">火力發電</div>
         </a>
     </div>
     <div class="regeneration">
@@ -30,7 +30,7 @@ export default {
     <div class="nuclearenergy">
         <a href="">
             <i class="fa-solid fa-circle-radiation"></i>
-            <div class="nuclearenergy mark">核能</div>
+            <div class="nuclearenergy mark">核能發電</div>
         </a>
     </div>
     <div class="electricity">
