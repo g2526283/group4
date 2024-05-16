@@ -41,7 +41,7 @@
                 </RouterLink>
             </li >
             <li id="liFourth" :class="{'textchange': this.isOpen}">
-                <RouterLink class="routerItem" to="/RenewableEnergySource">
+                <RouterLink class="routerItem" to="/circle">
                     <div class="position">
                         <i class="fa-solid fa-bolt-lightning"></i>
                         <h1>電力預測</h1>

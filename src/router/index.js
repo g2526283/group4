@@ -32,6 +32,12 @@ const router = createRouter({
       name:'HomeView',
       component:()=>import('../views/鳴 儒/HomeView.vue')
 
+    },
+    {
+      path:'/circle',
+      name:'circle',
+      component:()=>import('../views/慧，宇/circle.vue')
+
     }
     
   ]
